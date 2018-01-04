@@ -1,4 +1,21 @@
-#photo-of-day {
-  width: 200px;
-  height: 300px;
+body {
+  text-align: center;
+}
+
+.tile {
+  width: 130%;
+  text-align: right;
+  color: #EEE
+}
+
+#logo {
+  position: absolute;
+  font-size: 30em;
+  z-index: 3;
+  top: 3px;
+  background-color: rgba(255,0,0,.5);
+}
+
+#logo:hover{
+  font-size: 15em;
 }
